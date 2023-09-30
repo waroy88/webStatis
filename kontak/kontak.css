@@ -1,0 +1,38 @@
+/* Gaya untuk halaman kontak */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Menyusun konten rata tengah secara horizontal */
+    align-items: center; /* Menyusun konten rata tengah secara vertikal */
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-icons {
+    text-align: center; /* Menyusun konten rata tengah */
+    margin-bottom: 20px;
+    display: flex; /* Menggunakan flexbox */
+    align-items: center; /* Menyusun konten rata tengah secara vertikal */
+}
+
+.contact-item {
+    display: flex; /* Menggunakan flexbox */
+    flex-direction: column; /* Susun elemen dalam satu kolom */
+    align-items: center; /* Menyusun konten rata tengah secara vertikal */
+    margin: 0 10px; /* Menambahkan jarak antara ikon dan teks */
+}
+
+.contact-icon img {
+    width: 40px; /* Ukuran ikon */
+    height: auto;
+}
+
+.contact-text a {
+    text-decoration: none;
+    color: #007BFF; /* Ubah warna tautan sesuai keinginan Anda */
+}
